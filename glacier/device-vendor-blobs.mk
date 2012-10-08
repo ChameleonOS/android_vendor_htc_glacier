@@ -34,6 +34,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/glacier/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/glacier/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+  vendor/htc/glacier/proprietary/lib/drm/libdrmwvmplugin.so:/system/lib/drm/libdrmwvmplugin.so \
   vendor/htc/glacier/proprietary/lib/libgemini.so:system/lib/libgemini.so \
   vendor/htc/glacier/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/glacier/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
