@@ -41,6 +41,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/glacier/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
   vendor/htc/glacier/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/glacier/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+  vendor/htc/glacier/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+  vendor/htc/glacier/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/glacier/proprietary/lib/libchromatix_s5k4e1gx_default_video.so:system/lib/libchromatix_s5k4e1gx_default_video.so \
   vendor/htc/glacier/proprietary/lib/libchromatix_s5k4e1gx_preview.so:system/lib/libchromatix_s5k4e1gx_preview.so \
   vendor/htc/glacier/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
