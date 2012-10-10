@@ -24,19 +24,16 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/glacier/proprietary/bin/awb_camera:system/bin/awb_camera \
   vendor/htc/glacier/proprietary/bin/bma150_usr:system/bin/bma150_usr \
-  vendor/htc/glacier/proprietary/bin/charging:system/bin/charging \
   vendor/htc/glacier/proprietary/bin/lsc_camera:system/bin/lsc_camera \
-  vendor/htc/glacier/proprietary/bin/netmgrd:system/bin/netmgrd \
-  vendor/htc/glacier/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/glacier/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/glacier/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/glacier/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/glacier/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
+  vendor/htc/glacier/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/glacier/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/glacier/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/glacier/proprietary/lib/drm/libdrmwvmplugin.so:/system/lib/drm/libdrmwvmplugin.so \
   vendor/htc/glacier/proprietary/lib/libgemini.so:system/lib/libgemini.so \
-  vendor/htc/glacier/proprietary/lib/libidl.so:system/lib/libidl.so \
   vendor/htc/glacier/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/glacier/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/glacier/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
@@ -47,6 +44,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
   vendor/htc/glacier/proprietary/lib/libchromatix_s5k4e1gx_default_video.so:system/lib/libchromatix_s5k4e1gx_default_video.so \
   vendor/htc/glacier/proprietary/lib/libchromatix_s5k4e1gx_preview.so:system/lib/libchromatix_s5k4e1gx_preview.so \
+  vendor/htc/glacier/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/htc/glacier/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/glacier/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/glacier/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/glacier/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
@@ -56,13 +55,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/glacier/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/glacier/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/glacier/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-  vendor/htc/glacier/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-  vendor/htc/glacier/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-  vendor/htc/glacier/proprietary/lib/libdll.so:system/lib/libdll.so \
-  vendor/htc/glacier/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-  vendor/htc/glacier/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-  vendor/htc/glacier/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
-  vendor/htc/glacier/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-  vendor/htc/glacier/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-  vendor/htc/glacier/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-  vendor/htc/glacier/proprietary/lib/libqmi.so:system/lib/libqmi.so
+  vendor/htc/glacier/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so
