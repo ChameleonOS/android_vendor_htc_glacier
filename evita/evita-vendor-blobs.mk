@@ -71,14 +71,51 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
   vendor/htc/evita/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/htc/evita/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+  vendor/htc/evita/proprietary/lib/libgps.so:system/lib/libgps.so \
+  vendor/htc/evita/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
   vendor/htc/evita/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
   vendor/htc/evita/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/htc/evita/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/htc/evita/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/evita/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/evita/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.b07:system/etc/firmware/modem.b07 \
+  vendor/htc/evita/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b00:system/etc/firmware/modem_fw.b00 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b01:system/etc/firmware/modem_fw.b01 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b02:system/etc/firmware/modem_fw.b02 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b03:system/etc/firmware/modem_fw.b03 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b04:system/etc/firmware/modem_fw.b04 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b05:system/etc/firmware/modem_fw.b05 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b06:system/etc/firmware/modem_fw.b06 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b07:system/etc/firmware/modem_fw.b07 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b08:system/etc/firmware/modem_fw.b08 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b09:system/etc/firmware/modem_fw.b09 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b10:system/etc/firmware/modem_fw.b10 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b13:system/etc/firmware/modem_fw.b13 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b14:system/etc/firmware/modem_fw.b14 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b21:system/etc/firmware/modem_fw.b21 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b22:system/etc/firmware/modem_fw.b22 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b23:system/etc/firmware/modem_fw.b23 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b25:system/etc/firmware/modem_fw.b25 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b26:system/etc/firmware/modem_fw.b26 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.b29:system/etc/firmware/modem_fw.b29 \
+  vendor/htc/evita/proprietary/etc/firmware/modem_fw.mdt:system/etc/firmware/modem_fw.mdt \
   vendor/htc/evita/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/evita/proprietary/lib/hw/nfc.elite.so:system/lib/hw/nfc.elite.so \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b00:system/etc/firmware/q6.b00 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b01:system/etc/firmware/q6.b01 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b03:system/etc/firmware/q6.b03 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b04:system/etc/firmware/q6.b04 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b05:system/etc/firmware/q6.b05 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.b06:system/etc/firmware/q6.b06 \
+  vendor/htc/evita/proprietary/etc/firmware/q6.mdt:system/etc/firmware/q6.mdt \
   vendor/htc/evita/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/evita/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/htc/evita/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -99,4 +136,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evita/proprietary/lib/libimu.so:system/lib/libimu.so \
   vendor/htc/evita/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/evita/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
-  vendor/htc/evita/proprietary/lib/libmpl.so:system/lib/libmpl.so
+  vendor/htc/evita/proprietary/lib/libmpl.so:system/lib/libmpl.so \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+  vendor/htc/evita/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+  vendor/htc/evita/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
